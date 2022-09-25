@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ost_portalhourentity" />
+  <EntityRelationship Name="lk_ost_portalhourentity_createdby" />
+  <EntityRelationship Name="lk_ost_portalhourentity_modifiedby" />
+  <EntityRelationship Name="ost_PortalHourEntity_Account_Account" />
+  <EntityRelationship Name="owner_ost_portalhourentity" />
+  <EntityRelationship Name="team_ost_portalhourentity" />
+  <EntityRelationship Name="user_ost_portalhourentity" />
+</EntityRelationships>

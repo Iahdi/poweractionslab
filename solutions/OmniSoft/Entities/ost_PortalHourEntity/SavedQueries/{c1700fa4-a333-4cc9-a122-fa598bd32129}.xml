@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c1700fa4-a333-4cc9-a122-fa598bd32129}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ost_portaltask" select="1" icon="1" preview="1">
+        <row name="result" id="ost_portalhourentityid">
+          <cell name="ost_portaltask" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ost_portalhourentity">
+          <attribute name="ost_portalhourentityid" />
+          <attribute name="ost_portaltask" />
+          <attribute name="createdon" />
+          <order attribute="ost_portaltask" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal Hour Entity Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
