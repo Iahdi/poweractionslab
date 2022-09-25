@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{72f145c6-b033-ed11-9db1-000d3a32e035}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{5d068ffd-bdcb-4553-9fa4-ed821cf34564}" IsUserDefined="1" labelid="{ef60506d-810c-4611-982c-5b8d365da5fb}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8819776e-ae0e-4a7d-a6dd-9de497fcc47a}" labelid="{926b6c69-102a-43dc-a72c-d2f8f9587ab3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e7ee1ccf-07ae-4e6e-ba32-ed41cd9052fb}" labelid="{2edff3b4-7892-458b-a50d-cedf05837658}">
+                        <labels>
+                          <label description="Portal Task" languagecode="1033" />
+                        </labels>
+                        <control id="ost_portaltask" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ost_portaltask" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0332db9f-1718-40a7-893f-2fb5f6a12860}" locklevel="0" colspan="1" rowspan="1" labelid="{879e2254-e499-4f93-a2dc-4e25dd1811c4}">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="ost_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ost_duedate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b643672-14f7-49ed-8f24-145953e63a8f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="ost_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ost_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23371ffd-6c29-4609-acb2-c261fb24dd75}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Completed" languagecode="1033" />
+                        </labels>
+                        <control id="ost_completed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ost_completed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4896fd60-be79-43e8-81ca-b5763ce467b8}" labelid="{5920dc29-1b62-4d1d-b44f-e4be359401bc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{f6230ab5-541c-4cff-b11c-823d376ad5a9}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1663107060636" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>sharepointdocumentlocation</TargetEntityType>
+                            <ViewId>{820684B1-8D57-DF11-A5A2-00155D2A9005}</ViewId>
+                            <ViewIds>{45B0D1D8-8D57-DF11-A5A2-00155D2A9005},{820684B1-8D57-DF11-A5A2-00155D2A9005}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{1b032b52-2a02-4269-8336-0c1a42f0749f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{836bd104-b404-4793-b2f6-65d2da33545e}" showlabel="false" labelid="{95fb61ea-076f-44e1-89cb-7ccd6390e8be}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4c32a16a-9782-4e18-bacb-94a8023760f9}" showlabel="false" labelid="{2f4ade6b-dd4a-4224-8373-1bf44999fe6d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{40abb37a-6b7d-4293-ae1d-d29b971fc337}" showlabel="false" labelid="{d3a13d05-653c-4836-a70e-598c079eeb41}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{dae5efd3-18dd-48a3-91db-bda69b6407a9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1b361a00-b561-46a3-ab1b-6a35d43d5d7a}" showlabel="false" labelid="{6b624875-3af0-4c52-97f3-dc9cfa201eff}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3757a8f8-dec7-4650-9873-91abb827d6c8}" showlabel="false" labelid="{4bd42c53-5873-4b82-83a9-d70e8e75547d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{da430228-ec9b-4fb1-81dd-4dfcad6a7a05}" showlabel="false" labelid="{48a65f35-61a2-49bb-9670-d702e93c4c40}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal Hour form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

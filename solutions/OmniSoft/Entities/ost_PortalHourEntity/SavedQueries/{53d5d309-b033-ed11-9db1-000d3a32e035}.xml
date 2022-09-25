@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{53d5d309-b033-ed11-9db1-000d3a32e035}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ost_portaltask" select="1" icon="1" preview="1">
+        <row name="result" id="ost_portalhourentityid">
+          <cell name="ost_portaltask" width="200" />
+          <cell name="ost_duedate" width="100" />
+          <cell name="ost_notes" width="100" />
+          <cell name="ost_completed" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ost_portalhourentity">
+          <attribute name="ost_portaltask" />
+          <attribute name="ost_portalhourentityid" />
+          <attribute name="ost_duedate" />
+          <attribute name="ost_notes" />
+          <attribute name="ost_completed" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal Hour View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
